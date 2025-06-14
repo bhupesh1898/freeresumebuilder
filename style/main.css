@@ -1,0 +1,95 @@
+/* Override Bootstrap defaults where needed */
+body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light theme (default) */
+body[data-theme="light"] {
+    background-color: #f4f7fa;
+    color: #333;
+}
+body[data-theme="light"] h1, body[data-theme="light"] h2 {
+    color: #1a3c5e;
+}
+body[data-theme="light"] p {
+    color: #6b7280;
+}
+body[data-theme="light"] .card {
+    background-color: #fff;
+    border-color: #e5e7eb;
+}
+
+/* Dark theme */
+body[data-theme="dark"] {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+body[data-theme="dark"] h1, body[data-theme="dark"] h2 {
+    color: #60a5fa;
+}
+body[data-theme="dark"] p {
+    color: #d1d5db;
+}
+body[data-theme="dark"] .card {
+    background-color: #374151;
+    border-color: #4b5563;
+}
+body[data-theme="dark"] .form-control {
+    background-color: #4b5563;
+    color: #e5e7eb;
+    border-color: #6b7280;
+}
+
+/* Wood theme */
+body[data-theme="wood"] {
+    background-color: #d4a373;
+    color: #3f2a1d;
+}
+body[data-theme="wood"] h1, body[data-theme="wood"] h2 {
+    color: #8b5523;
+}
+body[data-theme="wood"] p {
+    color: #5c4033;
+}
+body[data-theme="wood"] .card {
+    background-color: #f5e6cc;
+    border-color: #8b5523;
+}
+body[data-theme="wood"] .form-control {
+    background-color: #f5e6cc;
+    color: #3f2a1d;
+    border-color: #8b5523;
+}
+
+/* Theme toggle icon */
+#themeToggle {
+    font-size: 1.2rem;
+}
+#themeToggle:hover {
+    color: #14b8a6;
+}
+
+/* Navbar adjustments */
+.navbar {
+    background-color: #1a3c5e !important;
+}
+.nav-link:hover {
+    color: #14b8a6 !important;
+}
+
+/* Section padding */
+section {
+    padding: 1rem;
+}
+
+/* Remove button alignment */
+.remove-btn {
+    width: fit-content;
+}
+
+/* Submit button */
+form button[type="submit"] {
+    width: fit-content;
+    margin-top: 1rem;
+}
