@@ -43,5 +43,5 @@ Follow these steps to set up and use Resume Builder locally or host it on GitHub
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/resume-builder.git
-   cd resume-builder
+   git clone https://github.com/bhupesh1898/freeresumebuilder.git
+   cd freeresumebuilder
